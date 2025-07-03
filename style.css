@@ -1,0 +1,41 @@
+:root {
+    /* Background Colors */
+    --bg-white: #ffffff;
+    --bg-pink: #f4f9fb;
+    --bg-light-blue: #f0f6ff;
+    --bg-green: #05f082;
+    --bg-dark-green: #17b0691a;
+    --bg-blue: #029de0;
+    --bg-purple: #5647b8;
+    --bg-navy: #002b57;
+  
+    /* Text Colors */
+    --text-white: #ffffff;
+    --text-light: #eaecf0;
+    --text-yellow: #fbd746;
+    --text-gray: #d0d5dd;
+    --text-green: #17b069;
+    --text-blue: #029de0;
+    --text-steel: #667085;
+    --text-deep-navy: #002b57;
+    --text-dark: #101828;
+    --text-black: #000000;
+  
+    /* Fill Colors */
+    --fill-white: #ffffff;
+    --fill-light: #eaecf0;
+    --fill-gray: #d0d5dd;
+    --fill-bright-green: #05f283;
+    --fill-yellow: #f0c24b;
+    --fill-red: #ff6b5e;
+    --fill-slate: #242e36;
+    --fill-navy: #101828;
+    --fill-black: #000000;
+  
+    /* Border Colors */
+    --border-light: #eaecf0;
+    --border-green: #17b069;
+    --border-blue: #029de0;
+    --border-dark-blue: #029cde33;
+  }
+  

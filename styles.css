@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.container{
+    max-width: 450px;
+    width: 60%;
+    /* border: 1px solid ; */
+}
+.signup__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+.signup__header .logo{
+height: 60px;
+width: 60px;
+border-radius: 50%;
+}
+.signup__form{
+    width: 100%;
+}
+.signup__form input
+{
+    display: block;
+    width: 100%;
+    padding:20px 10px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.signup__form input:focus::placeholder{
+    opacity: 0;
+}
+.form-input span{
+display: none;
+transition:top .3s linear;
+
+}
+
+.form-input{
+position: relative;
+}
+.signup__form input:focus{
+outline: 1px solid orangered;
+border: none;
+}
+.signup__form input:focus ~ span{
+left:20px;
+top: -15px;
+position: absolute;
+z-index: 3;
+background-color: white;
+padding: 5px 10px;
+color: rgba(255, 68, 0, 0.795);
+display: block;
+
+}
+
+.signup__form button{
+    display: block;
+    width: 100%;
+    border: none;
+    padding:20px 10px;
+    text-align: center;
+    background-color: rgba(255, 68, 0, 0.874);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    margin: 40px 0 15px 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.809);
+      
+}
+.signup__form button:hover{
+    background-color: orangered;
+   
+}
+.signup__form p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.signup__form a{
+    display: block;
+    line-height: 1.7;
+    color: orangered;
+    margin-bottom: 80px;
+}
+.facebook__login{
+    display: flex;
+    width: 100%;
+    border: none;
+    padding:20px 10px;
+    text-align: center;
+    background-color:blue;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    margin: 50px 0 15px 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.809); 
+    gap: 30px;
+    padding: 20px ;
+    margin-bottom: 40px;
+
+}
+.facebook__login .fa{
+    font-size: 24px;
+}
+
+.facebook__login span{
+    flex: 1 1 100%;
+    text-align: center;
+}
+.signup__footer p {
+font-size: 14px;
+margin-bottom: 15px;
+
+}
+.signup__footer p::selection{
+    background-color: black;
+    color: white;
+}
